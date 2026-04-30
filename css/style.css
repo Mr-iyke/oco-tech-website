@@ -738,28 +738,35 @@ option{
 
 @media (max-width: 425px) { 
     #google_translate_element select {
-    background-size: 17px;
+    background-size: 20px !important;
     text-indent: 40px;
     width: 35px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 #google_translate_element{
     padding: 3px 8px;
-    background: var(--primary); 
+    /* background: var(--primary);  */
     border-radius: 20px;
 }
 }
 
-@media (max-width: 992px) { 
+@media (max-width: 991px) { 
     #google_translate_element select {
+        background: url('../img/world1.png') no-repeat left center;
         margin-left: unset;
+        color: var(--primary);
     }
     .small {
         margin-right: unset !important;
     }
     .marg {
         margin-left: unset !important;
+    }
+    #google_translate_element{
+        padding: 3px 8px;
+        border-radius: 20px;
+        background-color: unset;
     }
 }
 
