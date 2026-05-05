@@ -845,6 +845,12 @@ body {
     filter: grayscale(100%);
 }
 
+@media (min-width: 992px) { 
+    .align-items-center {
+        justify-content: center;
+    }
+}
+
 /*** Mission & Vision Section ***/
 .mission-vision-card {
     background: var(--light);
